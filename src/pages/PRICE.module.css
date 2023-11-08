@@ -1,0 +1,341 @@
+.instanceChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-plum);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.frameChild,
+.frameInner {
+  position: absolute;
+  width: 442px;
+  height: 642px;
+}
+.frameInner {
+  top: 15px;
+  left: 504px;
+}
+.frameChild {
+  top: calc(50% - 313.5px);
+  left: calc(50% - 694.5px);
+  border-radius: var(--br-26xl);
+  background-color: var(--color-darkslateblue-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.soloRecommended {
+  position: absolute;
+  top: 70px;
+  left: 544px;
+  font-size: var(--font-size-13xl);
+  line-height: 20px;
+  display: inline-block;
+  color: var(--color-black);
+  text-align: left;
+  width: 321px;
+  height: 40px;
+}
+.frameItem {
+  position: absolute;
+  top: 507px;
+  left: 579px;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-gray-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 292px;
+  height: 55px;
+}
+.free15Day {
+  position: absolute;
+  top: 520px;
+  left: 643px;
+  display: inline-block;
+  width: 163px;
+  height: 33px;
+}
+.perfectForThe {
+  margin: 0;
+}
+.noWatermarksSay {
+  margin-bottom: 0;
+}
+.advancedThumbnailCustomizati {
+  margin: 0;
+  padding-left: var(--padding-8xl);
+}
+.perfectForTheContainer {
+  position: absolute;
+  top: 123px;
+  left: 544px;
+  font-size: var(--font-inherit);
+  font-weight: 600;
+  font-family: var(--font-inherit);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 377px;
+  height: 434px;
+}
+.goodForTryingContainer,
+.intro {
+  position: absolute;
+  left: 45px;
+  display: inline-block;
+}
+.intro {
+  top: 70px;
+  font-size: var(--font-size-13xl);
+  line-height: 20px;
+  width: 93px;
+  height: 40px;
+}
+.goodForTryingContainer {
+  top: 123px;
+  font-size: var(--font-inherit);
+  font-weight: 600;
+  font-family: var(--font-inherit);
+  text-align: left;
+  width: 381px;
+  height: 434px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 507px;
+  left: 96px;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-gainsboro);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 292px;
+  height: 55px;
+}
+.logIn {
+  position: absolute;
+  top: 518px;
+  left: 173px;
+  display: inline-block;
+  color: var(--color-steelblue);
+  width: 137px;
+  height: 30px;
+}
+.instanceItem {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-darkslateblue-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.frameInner1 {
+  position: absolute;
+  top: 15px;
+  left: 977px;
+  width: 442px;
+  height: 642px;
+}
+.free15Day1,
+.teams {
+  position: absolute;
+  line-height: 20px;
+  display: inline-block;
+}
+.teams {
+  top: 70px;
+  left: 992px;
+  font-size: var(--font-size-13xl);
+  width: 119px;
+  height: 40px;
+}
+.free15Day1 {
+  top: 524px;
+  left: 1119px;
+  color: var(--color-steelblue);
+  width: 180px;
+  height: 32px;
+}
+.greatForAgenciesContainer {
+  position: absolute;
+  top: 124px;
+  left: 1008px;
+  font-size: var(--font-inherit);
+  font-weight: 600;
+  font-family: var(--font-inherit);
+  text-align: left;
+  display: inline-block;
+  width: 402px;
+  height: 397px;
+}
+.frameChild1 {
+  position: absolute;
+  top: 507px;
+  left: 1037px;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-gainsboro);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 292px;
+  height: 55px;
+}
+.free15Day2 {
+  position: absolute;
+  top: 520px;
+  left: 1102px;
+  color: var(--color-steelblue);
+}
+.frame {
+  position: absolute;
+  top: 183px;
+  left: 0;
+  width: 1431px;
+  height: 657px;
+  overflow: hidden;
+}
+.span {
+  font-size: var(--edge-size);
+}
+.ourPricingStructureContainer {
+  position: absolute;
+  top: calc(50% + 41px);
+  left: calc(50% - 369px);
+  line-height: 20px;
+  display: inline-block;
+  width: 738px;
+  height: 66px;
+}
+.frame3 {
+  position: absolute;
+  top: 0;
+  left: 404px;
+  width: 738px;
+  height: 214px;
+  overflow: hidden;
+}
+.thumbelina,
+.thumbelina1 {
+  position: absolute;
+  width: 417px;
+  height: 69px;
+}
+.thumbelina1 {
+  top: calc(50% - 34.5px);
+  left: calc(50% - 208.5px);
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  display: inline-block;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+}
+.thumbelina {
+  top: 81px;
+  left: 0;
+  cursor: pointer;
+}
+.frame2,
+.frame4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.frame4 {
+  width: 417px;
+  height: 150px;
+  font-size: var(--edge-size);
+  color: var(--color-white);
+  font-family: var(--edge);
+}
+.frame2 {
+  width: 1142px;
+  height: 214px;
+}
+.frame6,
+.ourPricing {
+  position: absolute;
+  width: 425px;
+}
+.ourPricing {
+  top: calc(50% + 10.5px);
+  left: calc(50% - 212.5px);
+  line-height: 20px;
+  display: inline-block;
+  height: 86px;
+}
+.frame6 {
+  top: 0;
+  left: 107px;
+  height: 193px;
+  overflow: hidden;
+}
+.about {
+  right: 204px;
+  width: 86px;
+  cursor: pointer;
+}
+.about,
+.generator,
+.prices {
+  position: absolute;
+  top: 68px;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  height: 34px;
+}
+.generator {
+  right: 365px;
+  width: 135px;
+  cursor: pointer;
+}
+.prices {
+  right: 40px;
+  width: 107px;
+}
+.navbar {
+  top: calc(50% - 96.5px);
+  left: 0;
+  width: 534px;
+  height: 130px;
+  text-align: right;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-asap);
+}
+.frame1,
+.frame5,
+.navbar {
+  position: absolute;
+  overflow: hidden;
+}
+.frame5 {
+  top: 0;
+  left: 453px;
+  width: 534px;
+  height: 193px;
+  font-size: var(--edge-size);
+  color: var(--color-white);
+  font-family: var(--font-alata);
+}
+.frame1 {
+  top: -31px;
+  left: 0;
+  width: 1142px;
+  height: 214px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslateblue-100);
+}
+.price {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-assistant);
+}

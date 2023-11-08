@@ -1,0 +1,202 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 882px;
+  height: 1024px;
+  object-fit: cover;
+}
+.frameItem {
+  position: absolute;
+  top: -3px;
+  left: 882px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 560px;
+  height: 1027px;
+}
+.instanceChild,
+.login {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login {
+  top: calc(50% - 279px);
+  left: calc(50% - 96.5px);
+  line-height: 50px;
+  color: var(--color-black);
+  width: 162px;
+  height: 98px;
+}
+.instanceChild {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--font-asap);
+  font-size: var(--font-size-xl);
+  background-color: var(--color-plum);
+  top: -15px;
+  left: 42px;
+  border-radius: var(--br-26xl);
+  width: 250px;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.instanceWrapper {
+  position: absolute;
+  top: 167px;
+  left: 81px;
+  width: 358px;
+  height: 82px;
+}
+.submit {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 50px;
+  font-weight: 600;
+  font-family: var(--font-asap);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 221px;
+  flex-shrink: 0;
+}
+.submitWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-black);
+  top: 375px;
+  left: 122px;
+  border-radius: var(--br-26xl);
+  width: 250px;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.enterYourEmail,
+.forgotPassword,
+.frameInner,
+.submitWrapper {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.enterYourEmail {
+  top: 66px;
+  left: 62px;
+  font-size: 16px;
+  line-height: 50px;
+  width: 366px;
+  height: 82px;
+}
+.forgotPassword,
+.frameInner {
+  font-weight: 600;
+}
+.forgotPassword {
+  top: 319px;
+  left: 208px;
+  font-size: 15px;
+  line-height: 50px;
+  width: 164px;
+  height: 30px;
+}
+.frameInner {
+  border: 0;
+  font-family: var(--font-asap);
+  font-size: var(--font-size-xl);
+  background-color: var(--color-plum);
+  top: 249px;
+  left: 122px;
+  border-radius: var(--br-26xl);
+  width: 250px;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.loginParent {
+  position: absolute;
+  top: 70px;
+  right: 17px;
+  width: 521px;
+  height: 592px;
+  overflow: hidden;
+  color: var(--color-gray-300);
+}
+.welcomeBack,
+.youCanSign {
+  position: absolute;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+}
+.welcomeBack {
+  top: 250px;
+  right: 928px;
+  font-size: 64px;
+  justify-content: center;
+  width: 461px;
+  height: 211px;
+}
+.youCanSign {
+  top: 356px;
+  right: 560px;
+  font-size: var(--font-size-17xl);
+  text-align: left;
+  width: 816px;
+  height: 156px;
+}
+.thumbelina,
+.thumbelina1 {
+  position: absolute;
+  width: 417px;
+  height: 69px;
+}
+.thumbelina1 {
+  top: calc(50% - 34.5px);
+  left: calc(50% - 208.5px);
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  display: inline-block;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+}
+.thumbelina {
+  top: 101px;
+  right: 900px;
+  cursor: pointer;
+  font-family: var(--edge);
+}
+.imageRemovebgPreview12 {
+  position: absolute;
+  top: 70px;
+  left: 92px;
+  width: 67px;
+  height: 65px;
+  object-fit: cover;
+}
+.login2,
+.rectangleParent {
+  height: 642px;
+  overflow: hidden;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+}
+.login2 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: var(--edge-size);
+  color: var(--color-white);
+  font-family: var(--font-asap);
+}

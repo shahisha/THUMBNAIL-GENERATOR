@@ -1,0 +1,198 @@
+.blankLine {
+  margin: 0;
+}
+.text {
+  position: absolute;
+  top: 76px;
+  left: 531px;
+  line-height: 20px;
+  font-family: var(--font-alata);
+  color: var(--color-darkslateblue-100);
+  display: inline-block;
+  width: 485px;
+  height: 312px;
+}
+.thumbelina,
+.thumbelina1 {
+  position: absolute;
+  width: 417px;
+  height: 69px;
+}
+.thumbelina1 {
+  top: calc(50% - 34.5px);
+  left: calc(50% - 208.5px);
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  display: inline-block;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+}
+.thumbelina {
+  top: 103px;
+  left: 16px;
+  cursor: pointer;
+}
+.about,
+.generator {
+  top: 68px;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  height: 34px;
+}
+.about {
+  position: absolute;
+  right: 204px;
+  width: 86px;
+  cursor: pointer;
+}
+.generator {
+  right: 365px;
+  width: 135px;
+}
+.generator,
+.navbar,
+.prices {
+  position: absolute;
+}
+.prices {
+  top: 68px;
+  right: 40px;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 107px;
+  height: 34px;
+  cursor: pointer;
+}
+.navbar {
+  top: -9px;
+  left: 453px;
+  width: 534px;
+  height: 130px;
+  overflow: hidden;
+  text-align: right;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-asap);
+}
+.prompts {
+  color: var(--color-darkviolet);
+}
+.thumbelinaPromptsTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.frameChild,
+.thumbelinaPrompts {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.thumbelinaPrompts {
+  top: 172px;
+  left: 284px;
+  font-size: 48px;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  width: 872px;
+  height: 127px;
+}
+.frameChild {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--font-asap);
+  font-size: var(--font-size-xl);
+  background-color: var(--color-plum);
+  top: 22px;
+  left: 8px;
+  border-radius: var(--br-26xl) 0 0 var(--br-26xl);
+  width: 440px;
+  height: 61px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.frameItem {
+  position: absolute;
+  right: 0;
+  bottom: 12px;
+  border-radius: 40px;
+  width: 151px;
+  height: 62px;
+}
+.rightArrowSolid241 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 44px;
+  left: 143px;
+  width: 19px;
+  height: 19px;
+  background-image: url(/public/rightarrowsolid241@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.generate {
+  position: absolute;
+  top: calc(50% - 43px);
+  left: calc(50% - 32px);
+  font-size: var(--font-size-xl);
+  line-height: 20px;
+  display: flex;
+  font-family: var(--font-assistant);
+  color: var(--color-white);
+  text-align: left;
+  align-items: center;
+  width: 184px;
+  height: 98px;
+}
+.instanceParent,
+.vectorParent {
+  position: absolute;
+  overflow: hidden;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 370px;
+  width: 180px;
+  height: 96px;
+}
+.instanceParent {
+  top: 378px;
+  left: 431px;
+  width: 578px;
+  height: 103px;
+}
+.searchEnginesAreContainer {
+  position: absolute;
+  top: 296px;
+  left: 475px;
+  font-size: var(--font-size-xl);
+  line-height: 20px;
+  font-family: var(--font-asap);
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  width: 491px;
+  height: 52px;
+}
+.prompt2 {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--edge-size);
+  color: var(--color-white);
+  font-family: var(--edge);
+}
